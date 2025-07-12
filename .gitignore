@@ -1,0 +1,30 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go build command
+*.out
+*.a
+
+# Build artifacts
+/tmp
+*.log
+
+# Dependency directories (Go Modules)
+vendor/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor config (optional, tergantung editor)
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+!.env.example
